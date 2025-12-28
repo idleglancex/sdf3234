@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "framework": null,
+  "buildCommand": "",
+  "outputDirectory": "",
   "functions": {
     "api/prices.js": {
       "memory": 1024,
@@ -15,5 +18,8 @@
         { "key": "Cache-Control", "value": "s-maxage=30, stale-while-revalidate" }
       ]
     }
+  ],
+  "rewrites": [
+    { "source": "/", "destination": "/api/prices" }
   ]
 }
