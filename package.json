@@ -1,0 +1,14 @@
+{
+  "name": "harem-altin-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step'",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^21.6.1",
+    "@sparticuz/chromium": "^119.0.2"
+  }
+}
