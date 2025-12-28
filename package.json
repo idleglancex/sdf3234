@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'No build step'",
-    "test": "node test.js"
+    "dev": "vercel dev"
   },
   "dependencies": {
     "puppeteer-core": "^21.6.1",
